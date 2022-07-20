@@ -1,3 +1,22 @@
-h1 {
-  color: steelblue;
+.container {
+  width: 90%;
+  max-width: 1200px;
+}
+
+header {
+  background-color: red;
+  color: white;
+  list-style: none;
+  height: 150px;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header div ul {
+  display: flex;
+  justify-content: space-around;
 }
