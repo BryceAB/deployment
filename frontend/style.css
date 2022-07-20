@@ -1,12 +1,13 @@
 .container {
-  width: 90%;
   max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 header {
   background-color: red;
   color: white;
-  list-style: none;
+
   height: 150px;
 }
 
@@ -19,4 +20,10 @@ header div {
 header div ul {
   display: flex;
   justify-content: space-around;
+  list-style: none;
+  gap: 15px;
+}
+
+.current {
+  color: #333;
 }
